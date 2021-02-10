@@ -28,7 +28,7 @@ Memory Management:
 - The project uses smart pointers instead of raw pointers: game class contains a vector of shared_pointers.
 My Repo: 
 
-https://github.com/lidia-sp/Snake-Game.git
+https://github.com/lidia-sp/SnakeGame
 
 
 Starter Repo: 
