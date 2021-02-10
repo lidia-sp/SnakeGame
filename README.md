@@ -1,14 +1,14 @@
 # CPPND: Capstone Snake Game - Modified by Lidia Cabanillas
 
-This are the implementations done to the base code: 
+This is the final project of the c++ Nanodegree at Udacity. The goal was to implement new features for a snake game.
+These are the changes that I have done to the base code: 
 
 - In game.h I have declared a class called "Food" which contains the coordinates, also the type of food, and constructor and some setter/getter functions. The implementation of this class is in game.cpp. Each type of food represents a color and an speed increment. The type of food is given randomly.
   green: do not increase speed of the snake. 
   blue: increase speed +0.02
   yellow: increase speed +0.04
   red: increase speed +0.08
-  
-  
+    
 - The class game.cpp, instead of having only the food as a SDL_Point. It has now a vector of shared_ptr of type Food, and several function of the game.pp class and also of the class renderer.cpp has been accordantly modified. 
 
 - When user start the game, he/she can select which level they want to play (beginners, intermediate or advanced).
